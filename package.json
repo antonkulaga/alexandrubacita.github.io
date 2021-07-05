@@ -1,0 +1,80 @@
+{
+  "name": "antonkulaga.github.io",
+  "version": "0.1",
+  "description": "GithubPage website",
+  "main": "index.js",
+  "repository": "https://github.com/antonkulaga/antonkulaga.github.io",
+  "author": "Anton Kulaga <antonkulaga@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mirkorainer/react-hexgrid": "^1.1.1",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.5",
+    "aframe": "^1.2.0",
+    "aframe-environment-component": "^1.2.0",
+    "aframe-gui": "^0.5.1",
+    "aframe-inspector": "^1.2.0",
+    "html2canvas": "^1.0.0-rc.7",
+    "jsonata": "^1.8.4",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-json-to-csv": "^1.0.4",
+    "react-promise-tracker": "^2.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-transition-group": "^4.4.1",
+    "semantic-react": "^0.12.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "three": "^0.128.0",
+    "web-vitals": "^1.1.1",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.24.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "nodemon": "^2.0.7",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "homepage": "https://antonkulaga.github.io",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --devtool inline-source-map --hot"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
